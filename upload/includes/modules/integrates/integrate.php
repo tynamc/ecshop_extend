@@ -568,7 +568,7 @@ class integrate
         {
             /* 摧毁cookie */
             $time = time() - 3600;
-            setcookie("ECS[user_id]",  '', $time, $this->cookie_path);            
+            setcookie("ECS[user_id]",  '', $time, $this->cookie_path);
             setcookie("ECS[password]", '', $time, $this->cookie_path);
 
         }
