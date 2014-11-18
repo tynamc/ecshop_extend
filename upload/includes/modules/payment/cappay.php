@@ -74,13 +74,9 @@ class cappay
      *
      * @return void
      */
-    function cappay()
-    {
-    }
 
     function __construct()
     {
-        $this->cappay();
     }
 
     /**

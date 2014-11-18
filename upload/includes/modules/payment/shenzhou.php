@@ -74,13 +74,9 @@ class shenzhou
      * @return void
      */
 
-    function shenzhou()
-    {
-    }
 
     function __construct()
     {
-        $this->shenzhou();
     }
 
    /**

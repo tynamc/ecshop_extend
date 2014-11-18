@@ -74,14 +74,10 @@ class ips
     *
     * @return void
     */
-    function ips()
-    {
 
-    }
 
     function __construct()
     {
-        $this->ips();
     }
 
     /**

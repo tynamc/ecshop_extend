@@ -76,13 +76,9 @@ class tenpay
      *
      * @return void
      */
-    function tenpay()
-    {
-    }
 
     function __construct()
     {
-        $this->tenpay();
     }
 
     /**
