@@ -1215,7 +1215,7 @@ class cls_template
             {
                 foreach ($arr['output'] AS $key => $val)
                 {
-                    $options["{$arr[values][$key]}"] = $val;
+                    $options["{$arr['values'][$key]}"] = $val;
                 }
             }
             else
@@ -1223,7 +1223,8 @@ class cls_template
                 $options = array_values((array)$arr['output']);
             }
         }
-        if ($options)
+        $out = '';
+        if (isset($options))
         {
             foreach ($options AS $key => $val)
             {

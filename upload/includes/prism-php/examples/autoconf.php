@@ -3,6 +3,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 if($_REQUEST['token']) {
     //2.x 第二步, Prism服务器根据token获取配置参数
+    $_REQUEST['token'] = preg_replace("/[^A-z0-9]/",'',$_REQUEST['token']);
     get_args_by_token($_REQUEST['token']);
 }else{
     //1.x 第一步, 人工交互过程
